@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("@assets/fonts/SFProDisplay-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("@assets/fonts/SFProDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("@assets/fonts/SFProDisplay-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body {
+    font-family: "SF Pro Display", sans-serif;
+    margin: 0 !important;
+    padding: 0px !important;
+  }
+}
+
+@layer components {
+  .section-2 span.ml-4 {
+    display: none !important;
+  }
+}
+
+@layer utilities {
+}
