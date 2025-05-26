@@ -139,7 +139,7 @@ export default function HeroBanner({ id }: { id: string }) {
     <>
       <Styles.HeroStyles id={id}>
         <WrapperBackground />
-        <div className="z-10 mx-auto mb-[140px] mt-[180px] flex h-auto flex-col gap-8 px-4 text-center md:mb-[120px] md:h-[45vh] md:max-w-[919px] md:gap-10 md:pb-20">
+        <div className="z-10 mx-auto mb-[140px] mt-[180px] flex h-auto flex-col gap-8 px-4 text-center md:mb-[120px] md:h-[50vh] md:max-w-[919px] md:gap-10 md:pb-20">
           <motion.div
             initial={{ y: 60, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}

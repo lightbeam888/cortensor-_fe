@@ -54,9 +54,9 @@ export default function HomePage() {
       <div>
         <HeroBanner id="home" />
         <div className="pointer-events-none relative h-full w-full pb-0 ">
-          <div className="absolute inset-0 z-10 h-full w-full backdrop-blur-md"></div>
+          {/* <div className="absolute inset-0 z-10 h-full w-full backdrop-blur-md"></div> */}
           {/* <div className="absolute inset-0 z-10 h-full w-full bg-[rgba(255,255,255,0.4)]"></div> md:pb-[350px] */}
-          <div className="absolute left-0 top-0 h-full w-full bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,rgba(255,255,255,0.45)_5%,rgba(255,255,255,0.75)_20%,rgba(255,255,255,0.8)_90%,rgba(255,255,255,0.2)_99%,rgba(255,255,255,0)_100%)]"></div>
+          {/* <div className="absolute left-0 top-0 h-full w-full bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,rgba(255,255,255,0.45)_5%,rgba(255,255,255,0.75)_20%,rgba(255,255,255,0.8)_90%,rgba(255,255,255,0.2)_99%,rgba(255,255,255,0)_100%)]"></div> */}
           <div className="relative inset-0 z-10">
             <div className="mt-0 pt-0 md:px-[10.76vw] md:pb-[150px] md:pt-10">
               <div className="md:mx-auto md:max-w-[1130px] ">
