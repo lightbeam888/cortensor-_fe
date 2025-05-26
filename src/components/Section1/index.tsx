@@ -1,19 +1,18 @@
 import React, { useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 
 import { sectionData1 } from "./sectionData1";
 import Section1Item from "./Section1Item";
 
 export default function Section1({ id }: { id: string }) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
 
   return (
     <motion.div
       id={id}
       ref={ref}
       initial={{ opacity: 0, y: 120 }}
-      animate={isInView ? { opacity: 1, y: 0 } : {}}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.95, ease: "easeOut" }}
     >
       <div className="flex flex-col items-center justify-center md:flex-row md:items-stretch md:justify-between">

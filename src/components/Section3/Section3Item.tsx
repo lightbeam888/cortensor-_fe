@@ -18,12 +18,12 @@ const Section3Item = ({
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1] }}
         viewport={{ once: true, amount: 0.2 }}
-        className="flex w-full flex-col gap-6 md:w-[50%] md:mt-[25px]"
+        className="flex w-full flex-col gap-6 md:mt-[25px] md:w-[50%]"
       >
-        <h1 className="text-normal font-medium leading-[110%] text-primary md:text-[32px] md:leading-[130%] md:h-[84px] h-auto">
+        <h1 className="h-auto text-normal font-medium leading-[110%] text-primary md:h-[84px] md:text-[32px] md:leading-[130%]">
           {title}
         </h1>
-        <p className="text-[16px] leading-[130%] text-primary md:text-[18px] md:leading-[140%] font-thin">
+        <p className="text-[16px] font-thin leading-[130%] text-primary md:text-[18px] md:leading-[140%]">
           {description}
         </p>
       </motion.div>

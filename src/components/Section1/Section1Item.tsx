@@ -11,7 +11,7 @@ const Section1Item = ({ title, text, img }: Omit<Section1ItemProps, "id">) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.6, ease: [0.16, 1, 0.3, 1] }}
       viewport={{ once: true, amount: 0.2 }}
       className="h-full"
