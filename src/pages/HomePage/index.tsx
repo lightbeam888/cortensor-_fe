@@ -12,7 +12,7 @@ import Section4 from "@components/Section4";
 import Section2 from "@components/Section2";
 import Section5 from "@components/Section5";
 import Section3 from "@components/Section3";
-import WrapperBackground from "@components/WrapperBackground";
+// import WrapperBackground from "@components/WrapperBackground";
 import { useMediaQuery } from "react-responsive";
 
 export default function HomePage() {
