@@ -113,7 +113,7 @@ const Section2 = () => {
       {/* Desktop & Tablet: Scroll Slide */}
       <div
         ref={containerRef}
-        className="relative hidden h-[300vh] md:block md:rounded-[24px]"
+        className="relative mb-[40px] hidden h-[300vh] md:block md:rounded-[24px]"
       >
         <div className="sticky top-[100px]">
           <motion.div
@@ -121,7 +121,7 @@ const Section2 = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className=" mb-10 px-[10px] text-center text-[32px] font-medium leading-[120%] md:mx-auto md:mb-20 md:max-w-[917px] md:text-[48px]"
+            className="px-[10px] text-center text-[32px] font-medium leading-[120%] md:mx-auto md:mb-20 md:max-w-[917px] md:text-[48px]"
           >
             Collaborative AI Horizon: Unleashing Decentralized Capabilities
           </motion.div>
@@ -184,4 +184,3 @@ const Section2 = () => {
 };
 
 export default Section2;
-

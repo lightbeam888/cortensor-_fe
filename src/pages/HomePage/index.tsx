@@ -76,9 +76,9 @@ export default function HomePage() {
           </div>
         </div>
         <div className="pointer-events-none relative inset-0 z-10 h-full w-full pb-0">
-          <WrapperBackground classNameBg="mt-[140px] pt-0 md:mt-[-450px] md:mb-[-150px] mb-0" />
+          {/* <WrapperBackground classNameBg="mt-[140px] pt-0 md:mt-[-100px] md:mb-[-150px] mb-0" /> */}
           {isDesktop && (
-            <div className="z-10 mt-[140px] px-[15px]  md:mt-40 md:px-0">
+            <div className="z-10 mt-[40px] px-[15px]  md:mt-40 md:px-0">
               <Section3 />
             </div>
           )}

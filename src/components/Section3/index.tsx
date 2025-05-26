@@ -53,7 +53,7 @@ export default function Section3() {
       className="relative"
     >
       <div
-        className="flex flex-col items-center md:sticky md:top-[200px]"
+        className="flex flex-col items-center md:sticky md:top-[20%]"
         style={{
           height: isDesktop ? `${stickyHeight}px` : "auto",
         }}
@@ -94,4 +94,3 @@ export default function Section3() {
     </section>
   );
 }
-
