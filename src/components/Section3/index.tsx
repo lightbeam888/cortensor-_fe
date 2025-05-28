@@ -42,7 +42,7 @@ export default function Section3() {
     ? -Math.min(Math.max(relativeY, 0), maxScrollX)
     : 0;
 
-  const sectionHeight = isDesktop ? stickyHeight + maxScrollDistance : "auto";
+  // const sectionHeight = isDesktop ? stickyHeight + maxScrollDistance : "auto";
 
   return (
     <section
