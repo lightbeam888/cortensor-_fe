@@ -33,10 +33,10 @@ export default function Section3() {
   const screenWidth = window.innerWidth;
   const isDesktop = screenWidth >= 768;
 
-  const extraScroll = isDesktop ? screenWidth / 2 - itemWidth / 2 : 0;
+  // const extraScroll = isDesktop ? screenWidth / 2 - itemWidth / 2 : 0;
 
   const maxScrollX = totalContentWidth - itemWidth - marginLeftLastItem;
-  const maxScrollDistance = maxScrollX + extraScroll;
+  // const maxScrollDistance = maxScrollX + extraScroll;
 
   const translateX = isDesktop
     ? -Math.min(Math.max(relativeY, 0), maxScrollX)
