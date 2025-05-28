@@ -48,7 +48,7 @@ export default function Section3() {
     <section
       ref={containerRef}
       style={{
-        height: isDesktop ? `${sectionHeight}px` : "auto",
+        height: isDesktop ? `350vh` : "auto",
       }}
       className="relative"
     >
